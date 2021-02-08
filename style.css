@@ -27,3 +27,49 @@
   width: 30%;
   height: 30%;
 }
+
+/* css for index2.html */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+  background-color: lightgray;
+  overflow: auto;
+}
+
+.img1 {
+  width:5%;
+  height:5%;
+  float: left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding:10px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+}
