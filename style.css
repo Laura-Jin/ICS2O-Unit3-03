@@ -1,0 +1,29 @@
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: powderblue;
+}
+
+.image-one {
+  float: right;
+  width:20%;
+  height: 20%;
+}
+
+.clearfix {
+  overflow: auto;
+  border: 1px solid blueviolet;
+  padding: 5px;
+  margin: 10px;
+}
+
+.image-two {
+  position: relative;
+  top: 2000px;
+  left: 300px;
+  width: 30%;
+  height: 30%;
+}
